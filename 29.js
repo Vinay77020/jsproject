@@ -1,0 +1,9 @@
+// append object to array using Push()
+
+function insertObject(arr , obj){
+    arr.push(obj);
+    console.log(arr);
+}
+let array = [1,2,3,4];
+let object = {x:12 , y:7 }
+insertObject(array, object);
